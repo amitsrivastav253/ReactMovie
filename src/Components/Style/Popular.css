@@ -1,0 +1,30 @@
+
+*{
+    padding:0;
+    margin:0px;
+}
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card1{
+    width:15rem;
+    margin: 1.5rem;
+    transition: transform 450ms;
+
+}
+.poster img{
+   width:15rem;
+}
+
+.card:hover{
+    transform: scale(1.08);
+}
+
+.title {
+    color:white;
+}
+.vote{
+    color:white
+}
